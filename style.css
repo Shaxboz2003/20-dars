@@ -1,0 +1,75 @@
+div{
+    display: inline-block;
+}
+.one{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+
+}
+.two{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.three{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.four{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.five{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.six{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.seven{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.one:hover{
+    transition: ease 2s;
+    transform: translate(50px, 100px);
+    
+}
+.two:hover{
+    transition: ease-in 2s;
+    transform: scale(0.5, 0.5);
+}
+.three:hover{
+    transition: ease-out 2s;
+    transform: rotate(360deg);
+}
+.four:hover{
+    transition: ease-in-out 2s;
+    transform: rotate(-90deg);
+}
+.five:hover{
+    transition: linear;
+    transform: scaleX(2);
+}
+.six:hover{
+    transition-delay: 2s;
+    transform: scaleY(2);
+}
+.seven:hover{
+    transition-duration: 0.5s;
+    transform: scaleY(2);
+}
